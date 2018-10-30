@@ -1,1 +1,1 @@
-web: gunicorn pedidos.wsgi --log-file -
+web: gunicorn earsapi.wsgi --log-file -
