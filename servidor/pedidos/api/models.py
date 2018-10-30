@@ -15,15 +15,6 @@ class Priority(models.Model):
 class Status(models.Model):
     current = models.TextField(blank=True, null = True)
 
-class Priority(models.Model):
-    name = models.CharField(blank=True, max_length=255)
-
-    def __str__(self):
-        return self.name
-
-class Status(models.Model):
-    current = models.TextField(blank=True, null = True)
-
     def __str__(self):
         return self.current
 
