@@ -23,7 +23,7 @@ SECRET_KEY = 'e-p=k6y49h*tm+)5d9^ruoy7g_9+&2fzoxqfmb^zw367-j91h1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['earsapi2.herokuapp.com']
 
 
 # Application definition
