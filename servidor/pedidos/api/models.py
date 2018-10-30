@@ -9,8 +9,12 @@ class CustomUser(AbstractUser):
 
     def __str__(self):
         return self.username
+
 class Priority(models.Model):
     name = models.CharField(blank=True, max_length=255)
+
+    def __str__(self):
+        return self.name
 
 class Status(models.Model):
     current = models.TextField(blank=True, null = True)
